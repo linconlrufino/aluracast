@@ -1,0 +1,39 @@
+.secao__cartoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.secao-horizontal .cartao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.secao-horizontal .cartao__imagem {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.secao-horizontal .cartao__titulo {
+  grid-column: 2/3;
+  grid-row: 1/1;
+}
+
+.secao-horizontal .cartao__subtitulo {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+.secao-horizontal .cartao__player {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+
+.secao-horizontal .cartao__botao {
+  grid-column: 3/3;
+  grid-row: 1/4;
+}
