@@ -6,6 +6,12 @@
   grid-template-rows: 120px auto;
 }
 
+.secao-horizontal .cartao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 1.25rem;
+}
+
 .secao__cartoes {
   display: flex;
   flex-direction: row;
