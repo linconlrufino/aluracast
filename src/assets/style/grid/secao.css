@@ -1,17 +1,8 @@
 .secao {
   display: grid;
 }
-
 .secao-horizontal {
   grid-template-rows: 120px auto;
-}
-
-.secao__cartoes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-  width: 100%;
 }
 
 .secao-vertical {

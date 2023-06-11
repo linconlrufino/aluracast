@@ -1,31 +1,18 @@
 .secao-horizontal .cartao {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 1.5rem;
+  column-gap: 1.25rem;
 }
 
 .secao-horizontal .cartao__imagem {
-  grid-row: 1/4;
-  grid-column: 1/2;
-}
-
-.secao-horizontal .cartao__titulo {
-  grid-row: 1/1;
-  grid-column: 2/3;
-}
-
-.secao-horizontal .cartao__subtitulo {
-  grid-column: 2/3;
-  grid-row: 2/2;
-}
-
-.secao-horizontal .cartao__player {
-  grid-row: 3/3;
-  grid-column: 2/3;
+  /*grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;*/
+  grid-area: 1/1/4/2;
 }
 
 .secao-horizontal .cartao__botao {
-  grid-row: 1/4;
   grid-column: 3/4;
+  grid-row: 1/4;
 }
