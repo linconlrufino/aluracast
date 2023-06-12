@@ -18,6 +18,10 @@
     padding-right: 1rem;
   }
 
+  .secao-horizontal .cartao {
+    column-gap: 0.5rem;
+  }
+
   .secao-horizontal .cartao__imagem {
     height: 56px;
     width: 56px;
