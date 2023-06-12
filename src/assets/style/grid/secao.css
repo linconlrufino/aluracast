@@ -8,8 +8,8 @@
 
 .secao-vertical {
   grid-template-columns: 1fr auto;
-  /* grid-template-rows: 1fr 6fr; */
   grid-template-rows: 1fr 2fr;
+  /* grid-template-rows: 1fr 6fr; */
 }
 
 .secao-vertical .secao__cartoes {
