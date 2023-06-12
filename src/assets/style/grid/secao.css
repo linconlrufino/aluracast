@@ -2,8 +2,17 @@
   display: grid;
   align-items: center;
 }
+
 .secao-horizontal {
   grid-template-rows: 120px auto;
+}
+
+.secao-horizontal .secao__cartoes {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%/2, max(348px, 100%/3)), 1fr)
+  );
 }
 
 .secao-vertical {
